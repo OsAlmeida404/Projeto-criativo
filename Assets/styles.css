@@ -1,0 +1,177 @@
+*{
+
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family:'Roboto', sans-serif;
+    color: #eaeaea;
+
+}
+
+body{
+
+    background-color: #050404;
+
+}
+
+header{
+
+    display: flex;
+    border-bottom: #eaeaea ridge;
+    width: 100vw;
+    height: 190px;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+header img{
+
+    width: 475px;
+
+}
+
+nav ul{
+
+    display: flex;
+    list-style: none;
+    gap: 100px;
+
+}
+
+nav ul li {
+
+    text-decoration: none;
+    text-transform: uppercase;
+    display: flex;
+
+}
+
+.aside-icon {
+
+    margin-left: 1100px;
+    margin-top: 147px;
+
+}
+
+.aside-new {
+
+    margin-top: 100px;
+    margin-left: 260px;
+    position: absolute;
+
+}
+
+.aside-new p {
+
+    max-width: 380px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.aside-new h1 {
+
+    font-size: 40px;
+    max-width: 500px;
+
+}
+
+.aside-new span {
+
+    color: #4a1942;
+
+}
+
+.aside-new button {
+
+    background-color: #4a1942;
+    width: 60px;
+    height: 32px;
+    border-radius: 50px;
+    cursor: pointer;
+
+} 
+
+button:hover{
+
+    background-color: green;
+
+}
+
+input {
+
+    height: 28px;
+    outline: none;
+    color: black;
+
+}
+
+footer {
+
+    display: flex;
+    justify-content: center;
+    margin-top: 3px;
+    margin-bottom: 20px;
+}
+
+nav ul a{
+
+    text-decoration: none;
+
+}
+
+form {
+
+    display: flex;
+    flex-direction: column;
+    margin-left: 650px;
+    margin-top: 200px;
+
+}
+
+form .name {
+
+    border: 1px solid #fcfcfc;
+    color: #060606;
+    border-radius: 7px;
+    font-size: 16px;
+    padding: 7px 37px; 
+    width: 600px;
+    margin-bottom: 23px;
+
+}
+
+form .email {
+
+    border: 1px solid #fcfcfc;
+    color: #060606;
+    border-radius: 7px;
+    font-size: 16px;
+    padding: 7px 37px; 
+    width: 600px;
+    margin-bottom: 23px;
+
+}
+
+textarea {
+    border: 1px solid #fcfcfc;
+    color: #060606;
+    border-radius: 7px;
+    width: 600px;
+    margin-bottom: 23px;
+    height: 400px;
+    outline: none;
+
+}
+.btn-input{
+    border: 1px solid #fcfcfc;
+    color: #060606;
+    border-radius: 7px;
+    font-size: 16px;
+    width: 128px;
+
+}
+.title-form{
+    display: flex;
+    margin-bottom: 30px;
+}
